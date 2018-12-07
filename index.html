@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>formulaire</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="sing-up-page">
+            <h1 class="title-sign">Sign up</h1>
+            <div class="form">
+                <form name="form_cont" onsubmit="return verif_formulaire()"> 
+                        <div class="field">
+                                <p>Last-name :</p>
+                                <input type="text" name="lastname" placeholder="packho" id="lname">
+                        </div>
+                        <div class="field">
+                               <p>First-name :</p> 
+                                <input type="text" placeholder="richel" name="firstname" id="fname">
+                        </div>
+                        <div class="field">
+                                <p>Email-adress :</p>
+                                <input type="text" name="email"  id="email">
+                        </div>
+                        <div class="field">
+                               <p>Password :</p>
+                        <input type="password" name="pass" id="pass">
+                        </div>
+                        <div class="field">
+                                <p>Confirmation password :</p>
+                         <input type="password" name="passconf" id="passconf">
+                         </div>
+                      <div class="area-field">
+                              <p>Comments:</p>
+                              <textarea name="comment" id="comments"></textarea> 
+                      </div>                
+                      <div class="button">
+                             <div class="button-item"><input type="reset" value="Reset"></div>
+                             <div class="button-item"><input type="submit" value="send"></div>
+                      </div>
+                </form>
+            </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+
+body {
+
+    background-image: url("https://www.bricoetloisirs.ch/img/products/930Wx620H/3222512001_001.jpg?_=1511620531080");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.form input{
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 250px;
+    height: 25px;  
+    text-align: center;
+}
+.field{
+    margin: 15px;
+    line-height: 0.1; 
+}
+.area-field{
+    line-height: 0.1; 
+    text-align: center;
+}
+.area-field textarea{
+    width: 250px;
+    height: 60px;
+    border-radius: 7px;
+    margin-bottom: 50px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+}
+.button-item input{
+    width: 70px;
+    height: 30px;
+}
+.sing-up-page{
+    text-align: center;
+    color: bisque;
+}
